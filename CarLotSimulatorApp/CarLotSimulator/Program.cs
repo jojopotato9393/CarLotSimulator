@@ -38,7 +38,7 @@ namespace CarLotSimulator
             Console.WriteLine("car2");
             car2.Engine();
             car2.Honk();
-           
+            
 
             Console.WriteLine();
             Car car3 = new Car()
@@ -61,11 +61,11 @@ namespace CarLotSimulator
             foreach(Car car in cars.Cars)
             {
                 Console.WriteLine($"{car.Year}");
-                Console.WriteLine() ;
+               
                 Console.WriteLine($"{car.Make}");
-                Console.WriteLine();
+               
                 Console.WriteLine($"{car.Model}");
-                Console.WriteLine();
+                
                 Console.WriteLine(car.EngineNoise);
                 Console.WriteLine();
 

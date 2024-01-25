@@ -10,7 +10,7 @@ namespace CarLotSimulator
     {
         public Car()
         {
-
+            CarLot.AddCar();
         }
         public int Year { get; set; }
         public string Make { get; set; }
@@ -32,7 +32,9 @@ namespace CarLotSimulator
         {
             Console.WriteLine($"{Make} goes {HonkNoise} ");
         }
-       
+
+      
+        
 
 }
 }
